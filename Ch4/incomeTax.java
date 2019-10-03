@@ -4,6 +4,8 @@ Amisha Jain
 AP CSA P2
 10-3-19
 
+Question(E5.18):
+
 The original US income tax of 1913 was quite simple. The tax was
   - 1 percent on the first $50,000
   - 2 percent on the amount over $50,000 up to $75,000

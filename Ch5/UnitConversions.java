@@ -37,46 +37,35 @@ public class UnitConversions{
         String to = in.next().toLowerCase();
         System.out.println("Value?" );
         double value = in.nextDouble();
-              if (
-                from.contains("cm") && to.contains("m")){
+              if(from.contains("cm") && to.contains("m")){
                 System.out.println(value/100);
               }
-                  else if(from.contains("cm") && to.contains("mm")){
-                    System.out.println(value/10);
-
-                    break;
+              else if(from.contains("cm") && to.contains("mm")){
+                System.out.println(value/10);
                   }
                   else if(from.contains("cm") && to.contains("km")){
                     System.out.println(value*100000);
-                    break;
                   }
                   else if(from.contains("mm") && to.contains("km")){
                     System.out.println(value*1000000);
-                    break;
                   }
                   else if(from.contains("mm") && to.contains("m")){
                     System.out.println(value*1000);
-                    break;
                   }
                   else if(from.contains("mm") && to.contains("cm")){
                     System.out.println(value*10);
-                    break;
                   }
                   else if(from.contains("m") && to.contains("cm")){
                     System.out.println(value/100);
-                    break;
                   }
                   else if(from.contains("m") && to.contains("km")){
                     System.out.println(value*1000);
-                    break;
                   }
                   else if(from.contains("m") && to.contains("mm")){
                     System.out.println(value/1000);
-                    break;
                   }
                   else if(from.contains("ml") && to.contains("l")){
                     System.out.println(value*1000);
-                    break;
                   }
                   else if(from.contains("l") && to.contains("ml")){
                     System.out.println(value/1000);
@@ -84,15 +73,12 @@ public class UnitConversions{
                   }
                   else if(from.contains("g") && to.contains("kg")){
                     System.out.println(value*1000);
-                    break;
                   }
                   else if(from.contains("kg") && to.contains("g")){
                     System.out.println(value/1000);
-                    break;
                   }
                   else{
                     System.out.print("Try again");
-                    break;
               }
 
               System.out.println("Do you want to try again? (Yes/No)");

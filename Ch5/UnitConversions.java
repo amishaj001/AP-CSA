@@ -69,7 +69,6 @@ public class UnitConversions{
                   }
                   else if(from.contains("l") && to.contains("ml")){
                     System.out.println(value/1000);
-                    break;
                   }
                   else if(from.contains("g") && to.contains("kg")){
                     System.out.println(value*1000);
@@ -78,7 +77,7 @@ public class UnitConversions{
                     System.out.println(value/1000);
                   }
                   else{
-                    System.out.print("Try again");
+                    System.out.print(" ");
               }
 
               System.out.println("Do you want to try again? (Yes/No)");
